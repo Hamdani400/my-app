@@ -53,7 +53,7 @@ if (props.isDisabled) className.push('disabled')
           className={className.join(' ')}
           style={props.style}
           onClick={onClick}
-        ></Link>
+        >{props.children}</Link>
       )
     }
   }
