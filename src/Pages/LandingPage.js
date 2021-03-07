@@ -1,0 +1,12 @@
+import Header from 'Parts/Header'
+import React, { Component } from 'react'
+
+export default class LandingPage extends Component {
+  render () {
+    return (
+      <>
+        <Header {...this.props}></Header>
+      </>
+    )
+  }
+}
