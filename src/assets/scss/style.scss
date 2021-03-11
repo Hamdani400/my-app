@@ -85,8 +85,12 @@ header {
             color: $gray-900;
             padding-left: 1rem;
             padding-right: 1rem;
+transition-duration: 400ms;
+
             &:hover {
-              text-decoration: underline;
+color: rgb(207, 202, 236);
+transition-duration: 400ms;
+
             }
           }
         }

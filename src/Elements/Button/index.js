@@ -75,12 +75,13 @@ Button.propTypes = {
   target: propTypes.string,
   isDisabled: propTypes.bool,
   isLoading: propTypes.bool,
+  isPrimary: propTypes.bool,
   isSmall: propTypes.bool,
   isLarge: propTypes.bool,
   isBlock: propTypes.bool,
   isExternal: propTypes.bool,
   className: propTypes.string,
-  hasShadow: propTypes.string,
+  hasShadow: propTypes.bool,
 href: propTypes.string
 
 }
