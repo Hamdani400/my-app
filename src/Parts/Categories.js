@@ -24,10 +24,10 @@ export default function Categories ({ data }) {
                     {item.isPopular && (
                       <div className='tag'>
                         Popular
-                        <span className='font-weight-light'>Choice</span>
+                        <span className='font-weight-light'> Choice</span>
                       </div>
                     )}
-                    <figure className='image-wrapper' style={{ height: 180 }}>
+                    <figure className='img-wrapper' style={{ height: 180 }}>
                       <img
                         src={item.imageUrl}
                         alt={item.name}
@@ -38,13 +38,13 @@ export default function Categories ({ data }) {
                       <Button
                         type='link'
                         href={`./properties/${item._id}`}
-                        className='scretched-link d-block text-grey-800'
+                        className='scretched-link d-block text-gray-800'
                       >
                         <h5 className='h4'>{item.name}</h5>
+                        <span className='text-gray-500'>
+                          {item.city}, {item.country}
+                        </span>
                       </Button>
-                      <span className='text-gray-500'>
-                        {item.city}, {item.country}
-                      </span>
                     </div>
                   </div>
                 </div>
