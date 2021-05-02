@@ -5,54 +5,36 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 @import 'colorVariables';
 @import '_functions';
 @import '_variables';
-
-
 @import '_mixins';
 @import 'container-grid';
-
-
-
-
-
-
 @import '_root';
-
 @import '_reboot';
 @import '_type';
 @import '_images';
 @import '_code';
-
-
 @import '_grid';
 @import '_tables';
 @import '_forms';
 @import '_buttons';
-
 @import '_transitions';
 @import '_dropdown';
 @import '_button-group';
 @import '_input-group';
 @import '_custom-forms';
-
 @import '_nav';
 @import '_navbar';
 @import '_card';
-
-
 @import '_breadcrumb';
 @import '_pagination';
 @import '_badge';
 @import '_jumbotron';
-
-
 @import '_alert';
 @import '_progress';
 @import '_media';
-
-
 @import '_list-group';
 @import '_close';
 @import '_toasts';
@@ -223,5 +205,43 @@ section {
         transform: scale(1);
       }
     }
+  }
+}
+
+.testimonial-hero, .testimonial-hero img{
+  width: 365px;
+  height: 500px;
+}
+
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top:50px;
+
+  .brand-tagline {
+    color: $gray-500;
+    margin-top: 10px;
+    font-weight: 300;
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0;
+    border: 0;
+
+    a, span {
+      color: $gray-500;
+      font-weight: 300;
+    }
+    a {
+      @include hover-focus {
+        color: $gray-800
+      }
+    }
+  }
+
+  .copyrights {
+    margin: 50px 0;
+    font-weight: 300;
+
+    color: $gray-500;
   }
 }
