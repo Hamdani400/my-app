@@ -39,9 +39,7 @@ if (props.isDisabled) className.push('disabled')
         <a
           href={props.href}
           className={className.join(' ')}
-          style={props.style}
-          target={props.target === '_blank' ? '_blank' : undefined}
-          rel='noreferrer' 
+          style={props.style} 
         >
           {props.children}
         </a>
