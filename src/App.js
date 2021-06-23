@@ -3,7 +3,6 @@ import 'assets/scss/style.scss';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
 import LandingPage from 'Pages/LandingPage';
 import DetailsPage from 'Pages/DetailsPage';
-import Example from 'Pages/Example';
 
 function App () {
   return (
